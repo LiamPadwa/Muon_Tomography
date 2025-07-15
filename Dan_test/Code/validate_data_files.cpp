@@ -56,7 +56,7 @@ bool compareFiles(const std::string& file1, const std::string& file2) {
  */
 int main(int argc, char* argv[]) {
     // Default reference file (update this path to your actual original file)
-    const std::string defaultPath = "/Users/liam/Documents/Muon_tomography/Dan_test/windows_linux_comp/linux_154_validation.data";
+    const std::string defaultPath = "/Users/liam/Documents/Muon_tomography/Dan_test/windows_linux_comp/linux_293_validation.data";
 
     // Ensure the user provided a path to the new file
     if (argc < 2) {

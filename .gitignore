@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Log files
+*.log
+logs/
+*.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+.vscode/
+
+.ruff_cache/
+
+# Output and filtered data
+output_filtered/
+*.out
+*.filtered
+
+# Backup files
+*~
+*.bak
+
+# Rclone config and cache
+.rclone.conf
+rclone.conf
+.cache/
+
+# Test files
+# Dan_test/
+# Manuals
+DT5550W/
+# Not Implemented
+Root_data_analysis/

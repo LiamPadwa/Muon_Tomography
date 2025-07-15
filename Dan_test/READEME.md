@@ -43,12 +43,7 @@ Before running the system, you must configure all scripts with the correct file 
   - No path changes needed.
 
 - **send_to_drive.ps1**
-  - **send_to_drive.ps1**:
-  Update the output Google Drive directory
-
-  ```bat
-  $drive_directory = "Jerusalem_filtered"
-  ```
+  - No path changes needed
 
 - **run_filter.bat**
   - Update the path to the logs directory (The directory is automatically created):

@@ -1,0 +1,11 @@
+{
+    "server": {
+        "detector": "Det",
+        "output_dir": "",
+        "port": 990,
+        "ip": "192.168.1.101",
+        "enabled": true
+    },
+    "run_number": 22,
+    "run_type": 1
+}
