@@ -1,1 +1,0 @@
-This directory contains raw data files from the muon detector. 
