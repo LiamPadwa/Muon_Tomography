@@ -1,6 +1,6 @@
 # Muon Tomography: Scheduling Runs on Windows
 
-This guide explains how to schedule and control data acquisition runs for your Muon Tomography project on Windows. It covers the directory structure, the purpose and usage of each script, and how to use PowerShell to automate sending `START` and `STOP` commands to your detector server.
+This guide explains how to schedule and control data acquisition runs for the Muon Tomography project on Windows. It covers the directory structure, the purpose and usage of each script, and how to use PowerShell to automate sending `START` and `STOP` commands to your detector server.
 
 ---
 

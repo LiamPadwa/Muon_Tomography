@@ -18,7 +18,7 @@ Thumbs.db
 env/
 venv/
 .vscode/
-
+.python-version
 .ruff_cache/
 
 # Output and filtered data

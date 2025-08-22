@@ -1,6 +1,6 @@
 # Muon Tomography Data Acquisition & Filtering: Windows Project Guide
 
-This project automates data acquisition and filtering for muon tomography experiments on Windows. It is organized into two main directories:
+This project automates data acquisition and filtering for the Muon Tomography experiments on Windows. It is organised into two main directories:
 
 ```text
 Data_filter/

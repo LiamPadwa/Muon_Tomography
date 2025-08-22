@@ -1,6 +1,6 @@
 # Muon Tomography: Automated Data Filtering on Windows
 
-This guide explains how to use and configure the data filtering automation scripts for your Muon Tomography project on Windows. It covers the directory structure, the purpose and usage of each script, and how to automate the filtering and upload process.
+This guide explains how to use and configure the data filtering automation scripts for the Muon Tomography project on Windows. It covers the directory structure, the purpose and usage of each script, and how to automate the filtering and upload process.
 
 ---
 

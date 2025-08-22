@@ -33,13 +33,18 @@ Get-ChildItem -Path $INPUT_DIR -Filter "*.data" | ForEach-Object {
         Write-Output $checkResult
         
         if ($LASTEXITCODE -eq 0) {
+            $startFilter = Get-Date
             # Run the Perl script
             & perl $PERL_SCRIPT $file $output_file
-            
+            $filterDuration = (Get-Date) - $startFilter
+            Write-Output "Filtering completed in $($filterDuration.TotalMinutes) minutes"
             # If Perl script was successful, send the filtered file to Google Drive
             if ($LASTEXITCODE -eq 0) {
+                $startUpload = Get-Date
                 Write-Output "Sending filtered file to Google Drive: $output_file"
                 & $SEND_TO_DRIVE_SCRIPT -FilePath $output_file
+                $uploadDuration = (Get-Date) - $startUpload
+                Write-Output "Upload completed in $($uploadDuration.TotalMinutes) minutes"
             }
         }
     }
